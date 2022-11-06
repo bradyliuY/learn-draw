@@ -1,101 +1,216 @@
-<mxfile host="app.diagrams.net" modified="2022-11-06T08:15:37.213Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="3mi7jf_m4iJ38suNnakQ" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-06T09:01:00.579Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="p3lSvCMA0APyHoXd0kAE" version="20.5.1" type="github">
   <diagram id="CyIgFXOa9rnpcJ_Aqr43" name="第 1 页">
     <mxGraphModel dx="1002" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="fidi1Q19Gw6rvUDOyK1Q-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="80" width="460" height="510" as="geometry" />
+          <mxGeometry x="140" y="200" width="410" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-7" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="110" y="130" width="190" height="240" as="geometry" />
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-8" value="mysql数据流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="154" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-2" value="事务开始" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCC99;" vertex="1" parent="1">
-          <mxGeometry x="139" y="170" width="120" height="40" as="geometry" />
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="74" width="460" height="510" as="geometry" />
         </mxCell>
-        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-3" value="线程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="125" y="130" width="160" height="30" as="geometry" />
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-34" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="680" y="124" width="190" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-4" value="写入binlog cache" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="139" y="240" width="120" height="40" as="geometry" />
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-35" value="事务开始" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCC99;" vertex="1" parent="1">
+          <mxGeometry x="709" y="164" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-5" value="事务提交" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCC99;" vertex="1" parent="1">
-          <mxGeometry x="139" y="310" width="120" height="40" as="geometry" />
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-36" value="线程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="695" y="124" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-6" value="文件系统缓存page cache" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="100" y="420" width="440" height="40" as="geometry" />
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-37" value="写入binlog cache" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="709" y="234" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-8" value="执行事务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="115" y="35" width="70" height="30" as="geometry" />
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-38" value="事务提交" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCC99;" vertex="1" parent="1">
+          <mxGeometry x="709" y="304" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-15" value="磁盘binlog文件" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFCC99;" vertex="1" parent="1">
-          <mxGeometry x="257" y="510" width="126" height="50" as="geometry" />
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-39" value="文件系统缓存page cache" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="670" y="414" width="440" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fidi1Q19Gw6rvUDOyK1Q-2" target="fidi1Q19Gw6rvUDOyK1Q-4">
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-40" value="binlog日志流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="670" y="29" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-41" value="磁盘binlog文件" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFCC99;" vertex="1" parent="1">
+          <mxGeometry x="827" y="504" width="126" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-42" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fidi1Q19Gw6rvUDOyK1Q-35" target="fidi1Q19Gw6rvUDOyK1Q-37">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="360" as="sourcePoint" />
-            <mxPoint x="440" y="310" as="targetPoint" />
+            <mxPoint x="960" y="354" as="sourcePoint" />
+            <mxPoint x="1010" y="304" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fidi1Q19Gw6rvUDOyK1Q-4" target="fidi1Q19Gw6rvUDOyK1Q-5">
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fidi1Q19Gw6rvUDOyK1Q-37" target="fidi1Q19Gw6rvUDOyK1Q-38">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="209" y="220" as="sourcePoint" />
-            <mxPoint x="209" y="250" as="targetPoint" />
+            <mxPoint x="779" y="214" as="sourcePoint" />
+            <mxPoint x="779" y="244" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-19" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="330" y="130" width="190" height="240" as="geometry" />
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-44" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="900" y="124" width="190" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-20" value="事务开始" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCC99;" vertex="1" parent="1">
-          <mxGeometry x="359" y="170" width="120" height="40" as="geometry" />
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-45" value="事务开始" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCC99;" vertex="1" parent="1">
+          <mxGeometry x="929" y="164" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-21" value="线程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="345" y="130" width="160" height="30" as="geometry" />
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-46" value="线程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="915" y="124" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-22" value="写入binlog cache" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="359" y="240" width="120" height="40" as="geometry" />
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-47" value="写入binlog cache" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="929" y="234" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-23" value="事务提交" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCC99;" vertex="1" parent="1">
-          <mxGeometry x="359" y="310" width="120" height="40" as="geometry" />
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-48" value="事务提交" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCC99;" vertex="1" parent="1">
+          <mxGeometry x="929" y="304" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fidi1Q19Gw6rvUDOyK1Q-20" target="fidi1Q19Gw6rvUDOyK1Q-22">
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-49" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fidi1Q19Gw6rvUDOyK1Q-45" target="fidi1Q19Gw6rvUDOyK1Q-47">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="610" y="360" as="sourcePoint" />
-            <mxPoint x="660" y="310" as="targetPoint" />
+            <mxPoint x="1180" y="354" as="sourcePoint" />
+            <mxPoint x="1230" y="304" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fidi1Q19Gw6rvUDOyK1Q-22" target="fidi1Q19Gw6rvUDOyK1Q-23">
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-50" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fidi1Q19Gw6rvUDOyK1Q-47" target="fidi1Q19Gw6rvUDOyK1Q-48">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="429" y="220" as="sourcePoint" />
-            <mxPoint x="429" y="250" as="targetPoint" />
+            <mxPoint x="999" y="214" as="sourcePoint" />
+            <mxPoint x="999" y="244" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="fidi1Q19Gw6rvUDOyK1Q-29">
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-51" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="fidi1Q19Gw6rvUDOyK1Q-54">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="191" y="377" as="sourcePoint" />
-            <mxPoint x="191" y="407" as="targetPoint" />
+            <mxPoint x="761" y="371" as="sourcePoint" />
+            <mxPoint x="761" y="401" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="fidi1Q19Gw6rvUDOyK1Q-28">
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-52" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="fidi1Q19Gw6rvUDOyK1Q-53">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="413" y="378" as="sourcePoint" />
-            <mxPoint x="413" y="408" as="targetPoint" />
+            <mxPoint x="983" y="372" as="sourcePoint" />
+            <mxPoint x="983" y="402" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-28" value="write" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="383" y="393" width="60" height="30" as="geometry" />
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-53" value="write" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="953" y="387" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-29" value="write" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="161" y="392" width="60" height="30" as="geometry" />
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-54" value="write" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="731" y="386" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-30" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fidi1Q19Gw6rvUDOyK1Q-6" target="fidi1Q19Gw6rvUDOyK1Q-15">
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-55" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fidi1Q19Gw6rvUDOyK1Q-39" target="fidi1Q19Gw6rvUDOyK1Q-41">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="310" y="460" as="sourcePoint" />
-            <mxPoint x="360" y="410" as="targetPoint" />
+            <mxPoint x="880" y="454" as="sourcePoint" />
+            <mxPoint x="930" y="404" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-31" value="fsync" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="323" y="470" width="60" height="30" as="geometry" />
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-56" value="fsync" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="893" y="464" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-58" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="324.5" as="sourcePoint" />
+            <mxPoint x="160" y="324.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-59" value="查询、更新" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="25" y="309" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-62" value="buffer pool" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="380" y="215" width="140" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-64" value="存在缓存" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFCC99;" vertex="1" parent="1">
+          <mxGeometry x="180" y="289" width="100" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-65" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="fidi1Q19Gw6rvUDOyK1Q-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="289" as="sourcePoint" />
+            <mxPoint x="280" y="239" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="244" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-66" value="存在缓存" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fidi1Q19Gw6rvUDOyK1Q-65">
+          <mxGeometry x="-0.1385" y="8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-67" value="磁盘" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="380" y="295.5" width="140" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-68" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fidi1Q19Gw6rvUDOyK1Q-64" target="fidi1Q19Gw6rvUDOyK1Q-67">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="310" as="sourcePoint" />
+            <mxPoint x="390" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-69" value="不存在缓存" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fidi1Q19Gw6rvUDOyK1Q-68">
+          <mxGeometry x="-0.44" y="7" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-70" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="74" width="220" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fidi1Q19Gw6rvUDOyK1Q-71" target="fidi1Q19Gw6rvUDOyK1Q-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-71" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="124" width="180" height="166" as="geometry" />
+        </mxCell>
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-72" value="事务开始" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCC99;" vertex="1" parent="1">
+          <mxGeometry x="1269" y="164" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-73" value="线程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1255" y="124" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-74" value="写入redo&amp;nbsp; log buffer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="324" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-75" value="事务提交" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCC99;" vertex="1" parent="1">
+          <mxGeometry x="1269" y="224" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-76" value="文件系统缓存page cache" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="414" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-77" value="redo日志流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="29" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-78" value="磁盘redo.file" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFCC99;" vertex="1" parent="1">
+          <mxGeometry x="1266" y="504" width="126" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-80" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fidi1Q19Gw6rvUDOyK1Q-72" target="fidi1Q19Gw6rvUDOyK1Q-75">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1339" y="214" as="sourcePoint" />
+            <mxPoint x="1339" y="244" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-88" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="fidi1Q19Gw6rvUDOyK1Q-91">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1328" y="371" as="sourcePoint" />
+            <mxPoint x="1328" y="401" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-91" value="write" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1298" y="386" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-92" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="fidi1Q19Gw6rvUDOyK1Q-78">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1329" y="454" as="sourcePoint" />
+            <mxPoint x="1369" y="404" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-93" value="fsync" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1332" y="464" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-95" value="后台线程" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCC99;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="320" width="120" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-96" value="每秒触发write同时fsync" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1465" y="280" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-97" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.071;entryY=0.488;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fidi1Q19Gw6rvUDOyK1Q-95" target="fidi1Q19Gw6rvUDOyK1Q-74">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1380" y="290" as="sourcePoint" />
+            <mxPoint x="1430" y="240" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
