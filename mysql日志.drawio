@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-06T09:01:00.579Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="p3lSvCMA0APyHoXd0kAE" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-06T09:09:52.865Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="mA0pLk4ojG1DrneuzLG-" version="20.5.1" type="github">
   <diagram id="CyIgFXOa9rnpcJ_Aqr43" name="第 1 页">
-    <mxGraphModel dx="1002" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1179" dy="831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -147,13 +147,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fidi1Q19Gw6rvUDOyK1Q-70" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1220" y="74" width="220" height="510" as="geometry" />
-        </mxCell>
-        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fidi1Q19Gw6rvUDOyK1Q-71" target="fidi1Q19Gw6rvUDOyK1Q-91">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="1220" y="74" width="660" height="436" as="geometry" />
         </mxCell>
         <mxCell id="fidi1Q19Gw6rvUDOyK1Q-71" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="1240" y="124" width="180" height="166" as="geometry" />
+          <mxGeometry x="1240" y="124" width="180" height="286" as="geometry" />
         </mxCell>
         <mxCell id="fidi1Q19Gw6rvUDOyK1Q-72" value="事务开始" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCC99;" vertex="1" parent="1">
           <mxGeometry x="1269" y="164" width="120" height="40" as="geometry" />
@@ -162,21 +159,21 @@
           <mxGeometry x="1255" y="124" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fidi1Q19Gw6rvUDOyK1Q-74" value="写入redo&amp;nbsp; log buffer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1270" y="324" width="120" height="40" as="geometry" />
+          <mxGeometry x="1520" y="231" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fidi1Q19Gw6rvUDOyK1Q-75" value="事务提交" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCC99;" vertex="1" parent="1">
-          <mxGeometry x="1269" y="224" width="120" height="40" as="geometry" />
+          <mxGeometry x="1269" y="313.5" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fidi1Q19Gw6rvUDOyK1Q-76" value="文件系统缓存page cache" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1230" y="414" width="200" height="40" as="geometry" />
+          <mxGeometry x="1480" y="321" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fidi1Q19Gw6rvUDOyK1Q-77" value="redo日志流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1230" y="29" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fidi1Q19Gw6rvUDOyK1Q-78" value="磁盘redo.file" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFCC99;" vertex="1" parent="1">
-          <mxGeometry x="1266" y="504" width="126" height="50" as="geometry" />
+          <mxGeometry x="1516" y="411" width="126" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-80" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fidi1Q19Gw6rvUDOyK1Q-72" target="fidi1Q19Gw6rvUDOyK1Q-75">
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-80" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="1" source="fidi1Q19Gw6rvUDOyK1Q-98" target="fidi1Q19Gw6rvUDOyK1Q-75">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1339" y="214" as="sourcePoint" />
             <mxPoint x="1339" y="244" as="targetPoint" />
@@ -184,33 +181,48 @@
         </mxCell>
         <mxCell id="fidi1Q19Gw6rvUDOyK1Q-88" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="fidi1Q19Gw6rvUDOyK1Q-91">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1328" y="371" as="sourcePoint" />
-            <mxPoint x="1328" y="401" as="targetPoint" />
+            <mxPoint x="1578" y="278" as="sourcePoint" />
+            <mxPoint x="1578" y="308" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fidi1Q19Gw6rvUDOyK1Q-91" value="write" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1298" y="386" width="60" height="30" as="geometry" />
+          <mxGeometry x="1548" y="293" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fidi1Q19Gw6rvUDOyK1Q-92" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="fidi1Q19Gw6rvUDOyK1Q-78">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1329" y="454" as="sourcePoint" />
-            <mxPoint x="1369" y="404" as="targetPoint" />
+            <mxPoint x="1579" y="361" as="sourcePoint" />
+            <mxPoint x="1619" y="311" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fidi1Q19Gw6rvUDOyK1Q-93" value="fsync" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1332" y="464" width="60" height="30" as="geometry" />
+          <mxGeometry x="1582" y="371" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fidi1Q19Gw6rvUDOyK1Q-95" value="后台线程" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCC99;" vertex="1" parent="1">
-          <mxGeometry x="1480" y="320" width="120" height="46" as="geometry" />
+          <mxGeometry x="1730" y="227" width="120" height="46" as="geometry" />
         </mxCell>
         <mxCell id="fidi1Q19Gw6rvUDOyK1Q-96" value="每秒触发write同时fsync" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1465" y="280" width="150" height="30" as="geometry" />
+          <mxGeometry x="1715" y="187" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fidi1Q19Gw6rvUDOyK1Q-97" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.071;entryY=0.488;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fidi1Q19Gw6rvUDOyK1Q-95" target="fidi1Q19Gw6rvUDOyK1Q-74">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1380" y="290" as="sourcePoint" />
-            <mxPoint x="1430" y="240" as="targetPoint" />
+            <mxPoint x="1630" y="197" as="sourcePoint" />
+            <mxPoint x="1680" y="147" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fidi1Q19Gw6rvUDOyK1Q-98" target="fidi1Q19Gw6rvUDOyK1Q-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-98" value="写入redo&amp;nbsp; log" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1269" y="233" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-99" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fidi1Q19Gw6rvUDOyK1Q-72" target="fidi1Q19Gw6rvUDOyK1Q-98">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1328.9999999999995" y="204" as="sourcePoint" />
+            <mxPoint x="1328.9999999999995" y="313.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fidi1Q19Gw6rvUDOyK1Q-100" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=#dae8fc;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="233" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
